@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap');
+
+:root {
+  --streamColor: #004E66;
+  --marketColor: #B4D2FF;
+  --frontPageColor: #D9D9D9;
+  --radioColor: #FFC1B4;
+  --liveColor: #FFB4B4;
+
+  --darkFont: #000000;
+  --lightFont: #FFFFFF;
+
+  --mainFont: 'Barlow', sans-serif;
+
+  --largeFontSize: 9.5rem;
+  --mediumFontSize: 3.5vw;
+  --smallFontSize: 1rem;
+
+  --lightMode-background: #FFFFFF;
+
+
+    --darkMode-background: #000000;
+
+}
+
+html {
+  
+
+}
+
+body {
+    background-color: var(--lightMode-background);
+    font-family: var(--mainFont);
+    color: var(--darkFont);
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+
+
+/*Main NAV STYLES*/
+.mainDock {
+    width: 100%;
+    height: 104px;
+   
+  
+   
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    text-align:center;
+
+}
+
+.buttonDefault {
+    font-family: 'Barlow';
+    background-color: transparent;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 100%;
+    color: #000000;
+
+    border-width: thin;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 0px;
+    
+
+    text-align: center;
+    letter-spacing: 0.1px;
+
+
+    width: 342px;
+    height: 82px;
+    transform: scale(.75);
+    cursor: pointer;
+
+}
+
+.buttonDefault:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+/*Main Body Styles*/
+
+.mainBody {
+    width: 100%;
+    min-height:50%;
+    max-height:100%;
+}
+
+/*Footer Styles*/
+.mainFooter {
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    text-align:center;
+    line-height:90px;
+    font-size: 12px;
+    color:white;
+}
